@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin: 20rem 0;
+}
+
+.App a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+}
+
+.App p {
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 0.2rem;
+  right: 50%;
+}

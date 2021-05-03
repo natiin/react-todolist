@@ -1,0 +1,63 @@
+.Todo-container-completed {
+  text-decoration: line-through;
+  color: darkgray;
+}
+
+.Todo-container {
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+.Todo-container button {
+  background-color: transparent;
+  border: none;
+}
+
+.Todo-container button i {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 1s ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0.2rem;
+}
+
+.Todo-container button:hover {
+  transform: rotate(30deg) scale(1.2);
+}
+
+.Todo-container li {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Todo-edit-form input {
+  outline: none;
+  border: none;
+  line-height: 1.5rem;
+  margin-right: 1rem;
+  width: 50%;
+  padding: 0.2rem;
+}
+
+.Todo-edit-form input:focus {
+  box-shadow: 0 0 10px #edcbac;
+}
+
+.Todo-edit-form button {
+  border: none;
+  background-color: #865031a1;
+  color: #fffdfa;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 500ms all ease;
+}
+
+.Todo-edit-form button:hover {
+  background-color: #ffc107;
+  transform: translate(1px, 1px);
+}

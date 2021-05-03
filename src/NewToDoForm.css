@@ -1,0 +1,39 @@
+.NewToDoForm-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.NewToDoForm-container input {
+  outline: none;
+  border: none;
+  line-height: 1.5rem;
+  margin-right: 1rem;
+  width: 50%;
+  padding: 0.2rem;
+}
+
+.NewToDoForm-container input:focus {
+  box-shadow: 0 0 10px #ffb48a;
+}
+
+.NewToDoForm-container button {
+  color: #865031a1;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.NewToDoForm-container button:active {
+  transform: scale(1.5);
+}
+
+.NewToDoForm-container button:hover {
+  color: #ffc107;
+  transform: translate(1px, 1px);
+}
